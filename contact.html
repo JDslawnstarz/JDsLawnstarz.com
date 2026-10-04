@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services & Contact | J&D's Lawnstarz</title>
+    <style>
+        :root { --green: #2e7d32; --dark: #1b1b1b; --light: #f4f4f4; --accent: #f57c00; }
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: var(--light); color: #333; line-height: 1.6; }
+        header { background-color: var(--dark); color: #fff; padding: 1.5rem; text-align: center; }
+        header h1 { margin: 0; color: #fff; font-size: 1.8rem; }
+        nav { background: var(--green); text-align: center; padding: 10px; }
+        nav a { color: white; text-decoration: none; margin: 0 12px; font-weight: bold; }
+        .container { max-width: 800px; margin: 30px auto; padding: 0 15px; }
+        .card { background: white; padding: 25px; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        h2 { color: var(--dark); }
+        .service-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+        @media (max-width: 600px) { .service-grid { grid-template-columns: 1fr; } }
+        .contact-box { background: var(--green); color: white; text-align: center; padding: 20px; border-radius: 8px; }
+        .contact-box a { color: white; font-weight: bold; text-decoration: underline; }
+        footer { background: var(--dark); color: #ccc; text-align: center; padding: 20px; margin-top: 40px; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>J&D's Lawnstarz Snow and Mow LLC</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home & Pricing</a>
+    <a href="about.html">Our Story</a>
+    <a href="contact.html">Services & Contact</a>
+</nav>
+
+<div class="container">
+    <div class="card">
+        <h2>Complete Service List</h2>
+        <p>We provide comprehensive year-round exterior and interior property services across Stark County:</p>
+        <div class="service-grid">
+            <div>
+                <h3>Lawn & Exterior</h3>
+                <ul>
+                    <li>Lawn Mowing & Trimming</li>
+                    <li>Landscaping & Mulching</li>
+                    <li>Hedge & Shrub Trimming</li>
+                    <li>Gutter Cleanouts</li>
+                    <li>Seasonal Snow Removal</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Handyman & Property Repairs</h3>
+                <ul>
+                    <li>Interior Painting & Touch-ups</li>
+                    <li>Drywall Patching & Repair</li>
+                    <li>General Home Repairs</li>
+                    <li>Deck Building & Maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-box">
+        <h2>Get a Free Quote</h2>
+        <p>Call or text us directly for estimates and scheduling:</p>
+        <p style="font-size: 1.4rem;"><strong>Phone:</strong> <a href="tel:3307544661">(330) 754-4661</a></p>
+        <p style="font-size: 1.2rem;"><strong>Secondary:</strong> <a href="tel:3306159569">(330) 615-9569</a></p>
+        <p><strong>Service Area:</strong> Canton, Massillon, and surrounding Stark County, OH</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; J&D's Lawnstarz Snow and Mow LLC | Serving Canton, Massillon & Stark County, OH</p>
+</footer>
+
+</body>
+</html>
